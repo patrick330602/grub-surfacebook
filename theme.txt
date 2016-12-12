@@ -1,22 +1,23 @@
-# Designed for 1920x1020 resolution.
+# Designed for 3000x2000 resolution.
+# PK_Wu
 
-message-font: "Ubuntu Regular 16"
+message-font: "Ubuntu Regular 18"
 title-text: ""
-terminal-font: "Calibri Regular 16"
+terminal-font: "Calibri Regular 18"
 desktop-image: "desktop.png"
 terminal-box: "terminal_*.png"
 
 + boot_menu {  
-   left = 1250
-   width = 550
-   top = 350
+   left = 1650
+   width = 600
+   top = 800
    height = 40%
    item_font = "Ubuntu Regular 40"
-   item_color = "#231f20"
-   selected_item_color= "#f08080"
-   icon_width = 78
-   icon_height = 80
-   item_height = 80
+   item_color = "#505050"
+   selected_item_color= "#3399FF"
+   icon_width = 96
+   icon_height = 100
+   item_height = 100
    item_padding = 20
    item_icon_space = 40
    item_spacing = 20
